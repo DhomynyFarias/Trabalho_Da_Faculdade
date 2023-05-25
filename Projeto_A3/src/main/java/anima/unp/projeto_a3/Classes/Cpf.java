@@ -1,18 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package anima.unp.projeto_a3.Classes;
 
 /**
  *
- * @author geral
+ * @author Dhomyny
  */
 public class Cpf {
-    String cpf;
-    
+    String cpf ="98518587140" ;
+    private Cpf(){
+       int intCpf = Integer.parseInt(cpf);
+    }
     public void validarCpf(){
-        cpf = "função em construção";
+        
     }
     
     
